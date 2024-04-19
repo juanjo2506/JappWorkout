@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+        --colorTittleClear: #ffebda;
+        --BackGround: #000000;
+        --BackGroundHome: #000000ec;
+        --colorTittleDark: #e0c707;
+        --colorText: #cd1a1a;
+        --colorButton1:#0cb514;
+        --colorButton2:#cd1a1a;
+        --colorButton3:#8e8f8f;
+}
+
+.Counter-Timer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.Counter{
+    border: var(--colorText) 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--BackGround)
+}
+
+.Counter h1{
+    color: var(--colorText);
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:var(--colorTittleClear)
+}
+.Counter h2{
+    color: var(--colorText);
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:var(--colorTittleClear)
+}
+
+.commands{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.commands button{
+    font-size: 2rem;
+    width: 90px;
+    height: 70px;
+    padding: 10px;
+    margin: 5px;
+}
+.commands button.sum{
+    background-color: var(--colorButton1);
+}
+.commands button.subtraction{
+    background-color: var(--colorButton2)
+}
+.commands button.resetCounter{
+    background-color: var(--colorButton3)
+}
+.commands button:hover{
+    color: var(--colorTittleClear)
+}
+
+.Timer{
+    border: var(--colorText) 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--BackGround)
+}
+
+.Timer h1{
+    color: var(--colorText);
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:var(--colorTittleClear)
+}
+
+.Timer div.display{
+    color: var(--colorText);
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:var(--colorTittleClear)
+}
+
+.controls button{
+    font-size: 2rem;
+    width: 90px;
+    height: 70px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.start-button{
+    background-color: var(--colorButton1);
+}
+.stop-button{
+    background-color: var(--colorButton2)
+}
+.reset-button{
+    background-color: var(--colorButton3)
+}
+.controls button:hover{
+    color: var(--colorTittleClear)
+}
+
+@media (max-width:870px){
+    .Timer{
+        width: 30%;
+    }
+    .Counter{
+        width: 30%;
+    }
+    .Timer h1{
+        color: var(--colorText);
+        font-size: 1.8rem;
+    }
+    .Timer div.display{
+        font-size: 1.8rem;
+      
+    }
+    .Counter h1{
+        color: var(--colorText);
+        font-size: 1.8rem;
+    }
+    .Counter h2{
+        color: var(--colorText);
+        font-size: 1.8rem;
+    }
+    .controls button{
+        font-size: 1.5rem;
+        width: 80px;
+        height: 60px;
+        padding: 10px;
+        margin: 5px;
+    }
+    .commands button{
+        font-size: 1.5rem;
+        width: 80px;
+        height: 60px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+}
+@media (max-width:741px){
+    .Timer{
+        width: 30%;
+    }
+    .Counter{
+        width: 30%;
+    }
+    .Timer h1{
+        color: var(--colorText);
+        font-size: 1.4rem;
+    }
+    .Timer div.display{
+        font-size: 1.4rem;
+      
+    }
+    .Counter h1{
+        color: var(--colorText);
+        font-size: 1.4rem;
+    }
+    .Counter h2{
+        color: var(--colorText);
+        font-size: 1.4rem;
+    }
+    .controls button{
+        font-size: 1rem;
+        width: 70px;
+        height: 50px;
+        padding: 10px;
+        margin: 5px;
+    }
+    .commands button{
+        font-size: 1rem;
+        width: 70px;
+        height: 50px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+}
+@media (max-width:441px){
+    .Timer{
+        width: 30%;
+    }
+    .Counter{
+        width: 30%;
+    }
+    .Timer h1{
+        color: var(--colorText);
+        font-size: 1rem;
+    }
+    .Timer div.display{
+        font-size: 1rem;
+      
+    }
+    .Counter h1{
+        color: var(--colorText);
+        font-size: 1rem;
+    }
+    .Counter h2{
+        color: var(--colorText);
+        font-size: 1rem;
+    }
+    .controls button{
+        font-size: 0.8rem;
+        width: 50px;
+        height: 30px;
+        padding: 10px;
+        margin: 5px;
+    }
+    .commands button{
+        font-size: 0.8rem;
+        width: 50px;
+        height: 30px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+}

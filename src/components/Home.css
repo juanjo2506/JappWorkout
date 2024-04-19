@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+        --colorTittleClear: #ffebda;
+        --BackGround: #000000;
+        --BackGroundHome: #000000ec;
+        --colorTittleDark: #5c2f05;
+        --colorText: #cd1a1a;
+}
+
+.main-home {
+    margin-top:95px; /* Añade el margen superior, sumando la altura del nav y un margen extra */
+    background-color: var(--BackGroundHome);
+    padding: 0.1px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.home-section{ 
+    color: var(--colorText);
+  background-color: var(--BackGround);
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 40px;
+  width: 40%;
+  text-align: center;
+  border: var(--colorText) 1px solid;
+  /* height: 100vh; */
+}
+.select{
+    margin-bottom: 10px;
+}
+.exercise-img{
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
+h2{
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:var(--colorTittleClear)
+  }
+  .weighted-container{
+    margin-top: 15px;
+  }
+.bodyweight-container{
+  margin-top: 15px;
+}
+  @media (max-width:900px){
+   
+    .home-section{ 
+      
+    width: 50%;
+   
+  }
+
+}
+  @media (max-width:776px){
+   
+    .home-section{ 
+      
+    width: 60%;
+   
+  }
+ 
+}
+  @media (max-width:640px){
+   
+    .home-section{ 
+      
+    width: 70%;
+   
+  }
+
+  .exercise-img{
+
+    width: 250px;
+    height: 200px;
+
+}
+ 
+}
+  @media (max-width:480px){
+   
+    .home-section{ 
+      
+    width: 70%;
+   
+  }
+
+  .exercise-img{
+
+    width: 200px;
+    height: 150px;
+
+}
+.title{
+  font-size: 20px;
+}
+.main-p{
+  font-size: 12px;
+}
+ 
+}
+  @media (max-width:480px){
+   
+    .home-section{ 
+      
+    width: 70%;
+   
+  }
+
+  .exercise-img{
+
+    width: 150px;
+    height: 100px;
+
+}
+.title{
+  font-size: 15px;
+}
+.main-p{
+  font-size: 10px;
+}
+ 
+}
+  @media (max-width:340px){
+   
+    .home-section{ 
+      
+    width: 70%;
+   
+  }
+
+  .exercise-img{
+
+    width: 120px;
+    height: 70px;
+
+}
+.title{
+  font-size: 15px;
+}
+.main-p{
+  font-size: 10px;
+}
+ 
+}
