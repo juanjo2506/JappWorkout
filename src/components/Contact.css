@@ -24,24 +24,30 @@
 /*     height: 100vh; */
    
 }
+.heading{
+    margin-top: 45px;
+    font-size: 2.5rem;
+}
 form{
     display: block;
-    margin: auto;
+    margin: 5px auto;
     width: 100%;
-    padding: 25px;
+    padding: 75px 25px;
     max-width: 1250px;
+
 }
 .btn{
     display: block;
     margin: auto;
+    margin-top: 20px;
     padding: 5px 15px;
     background-color: var(--colorText);
     width: 58px;
 }
 input{
-    width: 30%;
+    width: 40%;
     padding: 10px 5px;
-    margin: 5px 10px;
+    margin: 10px 10px;
     background-color:var(--colorTittleClear);
     border: none;
     border-radius: 5px;
@@ -51,7 +57,7 @@ textarea{
     
     width: 30%;
     padding: 10px 5px;
-    margin: 5px 10px;
+    margin: 10px 10px;
     background-color:var(--colorTittleClear);
     border: none;
     border-radius: 5px;
@@ -117,13 +123,13 @@ textarea{
     }
     input{
         
-        width: 40%;
+        width: 70%;
         
     }
     
     textarea{
-        width: 40%;
-        height: 100px;
+        width: 70%;
+        height: 200px;
 
     }
     
@@ -149,7 +155,7 @@ textarea{
     
     textarea{
         width: 70%;
-        height: 100px;
+        height: 200px;
 
     }
 }

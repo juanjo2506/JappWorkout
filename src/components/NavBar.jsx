@@ -9,7 +9,7 @@ function Nav() {
   return (
     <>
       <nav className='main-nav'>
-      <a href=""><img src={img} alt="" className='nav-img'/></a>
+      <Link to="/"><img src={img} alt="" className='nav-img'/></Link>
         <ul className='ul-nav'>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>

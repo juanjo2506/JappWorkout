@@ -24,13 +24,14 @@
 }
 .about{
     width: 40%;
-    margin: 25px auto;
-    padding: 50px;
+    margin: 120px auto;
+    padding: 75px;
     border: var(--colorText) 1px solid;
     background-color: var(--BackGround);
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/BACK-MUSCLES.png');
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .about h2{
     color: var(--colorText);
@@ -51,18 +52,13 @@
     .about{
         width: 60%;
     }
-    .about h2{
-
-    }
-    .about p{
-
-    }
+  
     
 
 }
   @media (max-width:776px){
     .about{
-        width: 65%;
+        width: 75%;
     }
  
 }
@@ -78,13 +74,17 @@
  
 }
   @media (max-width:480px){
+    .about{
+        width: 80%;
+        padding: 40px;
+    }
    
     .about h2{
-        font-size: 16px;
+        font-size: 25px;
 
     }
     .about p{
-        font-size: 10px;
+        font-size: 20px;
 
     }
 }

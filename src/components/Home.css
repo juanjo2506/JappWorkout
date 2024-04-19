@@ -16,6 +16,8 @@
     margin-top:95px; /* Añade el margen superior, sumando la altura del nav y un margen extra */
     background-color: var(--BackGroundHome);
     padding: 0.1px;
+    padding-bottom: 105px;
+    padding-top: 15px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/back.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,16 +28,18 @@
     color: var(--colorText);
   background-color: var(--BackGround);
   margin: auto;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  padding: 40px;
+  margin-top: 45px;
+  margin-bottom: 80px;
+  padding: 60px;
   width: 40%;
   text-align: center;
   border: var(--colorText) 1px solid;
   /* height: 100vh; */
 }
+/*  */
 .select{
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 .exercise-img{
     display: block;
@@ -76,6 +80,7 @@ h2{
     .home-section{ 
       
     width: 70%;
+
    
   }
 
@@ -91,7 +96,7 @@ h2{
    
     .home-section{ 
       
-    width: 70%;
+    width: 60%;
    
   }
 

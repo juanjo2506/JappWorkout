@@ -191,9 +191,11 @@
 @media (max-width:441px){
     .Timer{
         width: 30%;
+        padding: 40px 0px;
     }
     .Counter{
         width: 30%;
+        padding: 40px 0px;
     }
     .Timer h1{
         color: var(--colorText);

@@ -16,6 +16,8 @@
 }
 footer{
     background-color:var(--BackGround);
+/*     padding-top: 25px; */
+
 }
 .Social-media{
     display: flex;

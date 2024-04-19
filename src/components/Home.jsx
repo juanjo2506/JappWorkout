@@ -20,6 +20,9 @@ function Home() {
   return (
     <>
     <main className='main-home'>
+
+
+      
         <section className='home-section'>
           <h2>What are you working out today?</h2>
           <select name="" id="" onChange={handleSelect} className='select'>
