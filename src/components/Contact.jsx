@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Contact.css"
 
 function Contact() {
@@ -18,7 +19,7 @@ function Contact() {
           <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
            <input type="submit" value="Send" className="btn"/>
     
-           <input type="hidden" name="_next" value="http://localhost:5173/contact"/>
+           <input type="hidden" name="_next" value="https://jappworkout.netlify.app"/>
            <input type="hidden" name="_captcha" value="false"/>
         </form>
       </section>
